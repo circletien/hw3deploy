@@ -3,9 +3,9 @@
     {
       "files": ["*.mjs", "*.ts", "*.tsx"],
       "parserOptions": {
-        "project": "tsconfig.json",
-        "tsconfigRootDir": "hw3deploy",
-        "sourceType": "module"
+        "project": "tsconfig.json"
+        //"tsconfigRootDir": "hw3deploy",
+        //"sourceType": "module"
       }
     }
   ],
