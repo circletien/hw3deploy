@@ -24,7 +24,7 @@ type HomePageProps = {
 // any where. There are already libraries that use react to render to the terminal,
 // email, PDFs, native mobile apps, 3D objects and even videos.
 export default async function Home({
-  searchParams: { username, handle, title, startTime, endTime },
+  searchParams: { username, handle },
 }: HomePageProps) {
   // read the username and handle from the query params and insert the user
   // if needed.

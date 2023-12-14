@@ -1,9 +1,9 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 
-import { usePathname, useRouter } from "next/navigation";
-import { useSearchParams } from "next/navigation";
+// import { usePathname, useRouter } from "next/navigation";
+// import { useSearchParams } from "next/navigation";
 import { Button } from "@/components/ui/button";
 // import {
 //   Dialog,
@@ -29,16 +29,16 @@ type EventDialogProps = {
 };
 
 export default function EventDialog({open, setOpen}: EventDialogProps) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
+  // const router = useRouter();
+  // const pathname = usePathname();
+  // const searchParams = useSearchParams();
   const titleInputRef = useRef<HTMLInputElement>(null);
   const startTimeInputRef = useRef<HTMLInputElement>(null);
   const endTimeInputRef = useRef<HTMLInputElement>(null);
   const [startTimeError, setStartTimeError] = useState(false);
   const [endTimeError, setEndTimeError] = useState(false);
-  const { postTweet, loading } = useTweet();
-  const { handle, username } = useUserInfo();
+  const { postTweet } = useTweet();
+  const { handle } = useUserInfo();
   
 
   // handleSave modifies the query params to set the title and time

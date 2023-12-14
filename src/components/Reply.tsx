@@ -17,14 +17,14 @@ type ReplyProps = {
 // note that the event component is also a server component
 // all client side things are abstracted away in other components
 export default function Reply({
-  handle,
-  id,
-  username,
+  // handle,
+  // id,
+  // username,
   authorName,
   authorHandle,
   title,
-  likes,
-  liked,
+  // likes,
+  // liked,
 }: ReplyProps) {
   // console.log("Event");
   return (

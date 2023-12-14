@@ -1,6 +1,6 @@
 import { NextResponse, type NextRequest } from "next/server";
 
-import { string, z } from "zod";
+import { z } from "zod";
 
 import { db } from "@/db";
 import { eventsTable } from "@/db/schema";

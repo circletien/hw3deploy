@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-import { MessageCircle, Repeat2, Share } from "lucide-react";
+// import { MessageCircle, Repeat2, Share } from "lucide-react";
 
 import { Separator } from "@/components/ui/separator";
 import { getAvatar } from "@/lib/utils";
 import useLike from "@/hooks/useLike";
 import LikeButton from "./LikeButton";
-import TimeText from "./TimeText";
+// import TimeText from "./TimeText";
 import { useEffect } from "react";
 
 

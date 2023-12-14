@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
 
 // import Header from "@/components/Header";
-import MainPage from "@/components/MainPage";
+// import MainPage from "@/components/MainPage";
 // import { Separator } from "@/components/ui/separator";
 
 // import global styles for tailwind to work

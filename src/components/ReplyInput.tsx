@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 
 import GrowingTextarea from "@/components/GrowingTextarea";
 import UserAvatar from "@/components/UserAvatar";
@@ -17,7 +17,7 @@ type ReplyInputProps = {
 
 export default function ReplyInput({
   replyToEventId,
-  replyToHandle,
+  // replyToHandle,
   replyToTitle,
   ableReply,
 }: ReplyInputProps) {

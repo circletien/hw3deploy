@@ -7,12 +7,12 @@ import { Button } from "@/components/ui/button";
 // import search from "@/assets/search.png";
 import search from "@/assets/search.png";
 import Image from "next/image";
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import EventDialog from "@/components/EventDialog";
 import { Input } from "@/components/ui/input";
 import Event from "@/components/Event";
-import { useRouter } from "next/navigation";
-import { Router } from "lucide-react";
+// import { useRouter } from "next/navigation";
+// import { Router } from "lucide-react";
 
 type MainPageProps = {
     events: {
@@ -32,7 +32,7 @@ export default function MainPage({ events }: MainPageProps) {
     const [dialogOpen, setDialogOpen] = useState(false);
     const InputRef = useRef<HTMLInputElement>(null);
     const [searchText, setSearchText] = useState(InputRef.current?.value??"");
-    const router = useRouter();
+    // const router = useRouter();
 
     if(!username) return;
     if(!handle) return;
